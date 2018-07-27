@@ -1,0 +1,82 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid #F76C6C;
+
+}
+.site-header a {
+  color: #A8D0E6;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #F76C6C;
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+}
+
+.site-banner {
+  color: #F76C6C;
+}
+
+.btn {
+  /* background-color: rgba(0, 245, 245, 1); */
+  border: 2px solid #414042;
+  color: #414042;
+  font-weight: bold;
+}
+
+.btn a:hover {
+  color: #00F5F5;
+  transition: ease-in-out color .15s;
+}
+
+.bg-turquoise {
+  background-color: #A8D0E6
+}
+
+.bg-peach {
+  background-color: #F76C6C;
+}
+
+.bg-charcoal {
+  background-color: #414042;
+}
+
+.charcoal {
+  color: #414042
+}
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
