@@ -2,14 +2,10 @@
   max-width: 960px;
 }
 
-/*
- * Custom translucent site header
- */
-
 .site-header {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid #F76C6C;
+  /* border-bottom: 1px solid #F76C6C; */
 
 }
 .site-header a {
@@ -24,6 +20,16 @@
 
 .site-banner {
   color: #F76C6C;
+}
+
+.site-footer a {
+  color: #A8D0E6;
+  transition: ease-in-out color .15s;
+}
+.site-footer a:hover {
+  color: #F76C6C;
+  transition: ease-in-out color .15s;
+  text-decoration: none;
 }
 
 .btn {
@@ -52,6 +58,34 @@
 
 .charcoal {
   color: #414042
+}
+
+.peach {
+  color: #F76C6C
+}
+
+.turquoise {
+  color: #A8D0E6
+}
+
+.peach-bordered {
+  border-right: 10px solid #F76C6C;
+  border-bottom: 10px solid #F76C6C;
+}
+
+.turquoise-bordered {
+  border-left: 10px solid  #A8D0E6;
+  border-top: 10px solid  #A8D0E6;
+}
+
+.charcoal-bordered-left {
+  border-left: 10px solid  #414042;
+  border-bottom: 10px solid  #414042;
+}
+
+.charcoal-bordered-right {
+  border-right: 10px solid  #414042;
+  border-top: 10px solid  #414042;
 }
 /*
  * Dummy devices (replace them with your own or something else entirely!)
